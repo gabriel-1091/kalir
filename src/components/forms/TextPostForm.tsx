@@ -70,19 +70,17 @@ const TextPostForm = () => {
                         render={({ field }) => (
                             <FormItem className="flex-1">
                                 <FormControl>
-                                    <Textarea
-                                        className="w-full h-auto px-4 py-2 rounded-lg bg-dark-4 outline-none resize-none"
-                                        {...field}
-                                        ref={(e) => {
-                                            field.ref(e);
-                                            textareaRef.current = e;
-                                        }}
-                                        value={text}
-                                        onChange={(e) => {
-                                            field.onChange(e);
-                                            setText(e.target.value);
-                                        }}
-                                    />
+                                <Textarea
+                                    className="w-full h-auto px-4 py-2 rounded-lg bg-dark-4 outline-none resize-none"
+                                    {...field}
+                                    ref={field.ref}  // Automatically updates textareaRef.current
+                                    value={text}
+                                    onChange={(e) => {
+                                        field.onChange(e);
+                                        setText(e.target.value);
+                                    }}
+                                />
+
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
