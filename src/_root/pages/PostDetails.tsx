@@ -46,7 +46,11 @@ const PostDetails = () => {
     <div className="post_details-container">
       {isPending ? <Loader /> : (
         <div className="post_details-card">
-          {post?.isVideo !== "0" ? (
+          {post?.isText === "1" ? (
+            <div className="post_text-stats-container">
+          
+            </div>
+          ) : (
             <div className="post_image-stats-container">
               {post?.isVideo === "1" ? (
                 <video controls className="post-card_img">
@@ -64,10 +68,6 @@ const PostDetails = () => {
               <div className="hidden">
                 <PostStats post={post} userId={user.id} />
               </div>
-            </div>
-          ) : (
-            <div className="post_text-stats-container">
-              <p> </p>
             </div>
           )}
           <div className="post_details-info">
