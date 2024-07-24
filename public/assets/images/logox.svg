@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="171" height="36" viewBox="0 0 171 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M 29.833 18 C 29.833 25.088 24.088 30.833 17 30.833 C 9.912 30.833 4.167 25.088 4.167 18 C 4.167 10.912 9.912 5.167 17 5.167 C 24.088 5.167 29.833 10.912 29.833 18 Z M 32 18 C 32 26.284 25.284 33 17 33 C 8.716 33 2 26.284 2 18 C 2 9.716 8.716 3 17 3 C 25.284 3 32 9.716 32 18 Z M 25.276 11.276 C 25.276 12.133 24.581 12.828 23.724 12.828 C 22.867 12.828 22.173 12.133 22.173 11.276 C 22.173 10.419 22.867 9.724 23.724 9.724 C 24.581 9.724 25.276 10.419 25.276 11.276 Z M 12.488 19.209 C 13.156 21.701 15.717 23.18 18.209 22.512 C 20.701 21.844 22.18 19.283 21.512 16.791 C 20.844 14.299 18.283 12.82 15.791 13.488 C 13.299 14.156 11.82 16.717 12.488 19.209 Z M 10.395 19.77 C 11.372 23.418 15.122 25.582 18.77 24.605 C 22.417 23.627 24.582 19.878 23.605 16.23 C 22.627 12.583 18.878 10.418 15.23 11.395 C 11.582 12.373 9.418 16.122 10.395 19.77 Z" fill="url(#paint0_linear_120_1360)"/>
+  <defs>
+    <linearGradient id="paint0_linear_120_1360" x1="15" y1="3" x2="15" y2="33" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 2, 0)">
+      <stop stop-color="#877EFF"/>
+      <stop offset="0.4615" stop-color="#685DFF"/>
+      <stop offset="1" stop-color="#3121FF"/>
+    </linearGradient>
+    <style bx:fonts="Inter">@import url(https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C100..900&amp;display=swap);</style>
+  </defs>
+  <text style="fill: rgb(255, 255, 255); font-family: Inter; font-size: 30px; letter-spacing: 2.3px; word-spacing: -46.8px; white-space: pre;" x="38.99" y="26.808">Kalir</text>
+</svg>
